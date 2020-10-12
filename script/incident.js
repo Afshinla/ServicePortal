@@ -13,7 +13,7 @@ function create()
 	
 	//Eg. UserName="admin", Password="admin" for this code sample.
 	client.setRequestHeader('Authorization', 'Basic '+btoa('admin_afla'+':'+'TanDan00'));
-	
+	//client.setRequestHeader('Authorization', Basic {base64_encode(admin_afla:TanDan00)});	
 	client.onreadystatechange = function() { 
 		if(this.readyState == this.DONE) {
 //document.getElementById("response").innerHTML=this.status + this.response;

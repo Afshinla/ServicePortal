@@ -29,10 +29,10 @@
                                 <a class="nav-link" href="regionalt.php">Regionalt 5-døgnsprognose</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="abonnement.php">Abonnement</a>
+                                <a class="nav-link" href="signup.php">SIGN UP</a>
                             </li>                            
                             <li class="nav-item">
-                                <a class="nav-link" href="about.php">Om</a>
+                                <a class="nav-link" href="login.php">LOGIN</a>
                             </li>
                         </ul>
                         
