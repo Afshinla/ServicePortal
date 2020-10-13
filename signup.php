@@ -30,7 +30,36 @@
         <input type="password" name="pwdrepeat"  placeholder="Repeat password...">
         <button type="submit" name="submit">Sign Up</button>
     </form>
+    <?php
+
+    if (isset($_GET["error"])) {
+    if ($_GET["error"] == "emptyinput") {
+        echo "<p>Fill in all fields!</p>";
+    }
+    else if ($_GET["error"] == "invaliduid") {
+        echo "<p>Choose a proper username!</p>";
+    }
+    else if ($_GET["error"] == "invalidemail") {
+        echo "<p>Choose a proper email!</p>";
+    }
+    else if ($_GET["error"] == "passwordsdontmatch") {
+        echo "<p>Password doesn't match!</p>";
+    }
+    else if ($_GET["error"] == "stmtfailed") {
+        echo "<p>Something went wrong, try again!</p>";
+    }
+    else if ($_GET["error"] == "usernametaken") {
+        echo "<p>Username already taken!</p>";
+    }
+    else if ($_GET["error"] == "none") {
+        echo "<p>You have sigend up!</p>";
+    }
+}
+
+?>
 </section>
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
