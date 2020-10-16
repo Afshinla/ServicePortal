@@ -30,8 +30,9 @@ footer .container {
 </style>
 </head>
 <body>
-<?php include 'header.php';?>
-<?php include 'nav.php';?>
+<?php 
+include 'nav.php';
+?>
 
 <article class="container bg-light fill" id="current">
         <h2 style="margin-top: 20px">Her kan du søge efter vejret i en by</h2>

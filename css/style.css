@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Robot', sans-serif;
+}
+
+nav{
+    background-color: royalblue;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:44, 107, 132, 0.58; 
+}
+
+li{
+    list-style: none;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+nav li a{
+    
+    background-color: 44, 107, 132, 0.58;
+    text-decoration: none;
+    color: #dfd9d9;
+}
+.contain{
+    margin:auto;
+    width: 380px;
+    padding: 10px;
+    border: 10px;
+}
+
+
+ 
+
+
